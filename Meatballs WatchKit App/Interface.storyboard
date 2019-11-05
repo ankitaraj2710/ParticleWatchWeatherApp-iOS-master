@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15400" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15400"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SunriseAPIDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="right" text="City" id="ftM-Zt-Z01"/>
+                        <label alignment="left" text="Date" textAlignment="left" id="WyO-JJ-AKu" userLabel="Date Label"/>
+                        <label alignment="left" text="Time" textAlignment="left" id="bpo-eo-sNL"/>
+                        <label height="20" alignment="left" text="Weather" textAlignment="left" id="Z02-X6-wQL"/>
+                        <label height="20" alignment="left" text="Info" textAlignment="left" id="NU1-0N-4Ej"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Select City" id="Qy0-AR-SCf">
+                            <connections>
+                                <action selector="SelectCityPressed" destination="AgC-eL-Hgc" id="8xo-rw-RVd"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="TimeLabel" destination="bpo-eo-sNL" id="5Y6-yF-XGo"/>
+                        <outlet property="cityLabel" destination="ftM-Zt-Z01" id="p7b-nK-q3j"/>
+                        <outlet property="dateLabel" destination="WyO-JJ-AKu" id="AwB-2h-riv"/>
+                        <outlet property="descLabel" destination="NU1-0N-4Ej" id="jfO-hv-cdz"/>
+                        <outlet property="tempLabel" destination="Z02-X6-wQL" id="xV0-ft-agO"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-281" y="-99"/>
+        </scene>
+    </scenes>
+</document>

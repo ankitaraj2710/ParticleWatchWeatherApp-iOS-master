@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Meatballs/Pods-Meatballs-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Particle-SDK/Particle_SDK.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework
